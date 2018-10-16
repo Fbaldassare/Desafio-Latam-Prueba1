@@ -21,3 +21,8 @@
 }
 
 /* Footer */
+footer{
+    background-color: #008CCC;
+    height: 300px;
+    color: white;
+}

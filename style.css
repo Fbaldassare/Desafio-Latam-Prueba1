@@ -13,10 +13,11 @@
 
 /* Jumbotron */
 
-.jumbotron{
+#carousel-example-generic{
     text-align: center;
-    background-image: url("image/leucemia-infantil.jpg");
     background-position: center;
     height: 450px;
     margin-top: 50px;
 }
+
+/* Footer */

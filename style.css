@@ -1,1 +1,22 @@
-style.css
+
+.navbar-default{
+    background-color: #008CCC;
+}
+
+.navbar-brand{
+    color: white!important;
+}
+
+.navbar-nav > li > a{
+    color: white!important;
+}
+
+/* Jumbotron */
+
+.jumbotron{
+    text-align: center;
+    background-image: url("image/leucemia-infantil.jpg");
+    background-position: center;
+    height: 450px;
+    margin-top: 50px;
+}

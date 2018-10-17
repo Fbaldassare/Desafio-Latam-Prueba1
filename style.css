@@ -26,3 +26,7 @@ footer{
     height: 300px;
     color: white;
 }
+
+footer ul{
+    list-style: none;
+}

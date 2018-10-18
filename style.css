@@ -12,17 +12,42 @@
 }
 
 /* Jumbotron */
-
 #carousel-example-generic{
-    text-align: center;
-    background-position: center;
-    height: 450px;
     margin-top: 50px;
+    height: 450px;
+    background-size:: 100%;
+    text-align: center;
 }
+
+#carousel-background{
+    height: 450px;
+    width: 100%;
+    background-image: url('image/20090305-DominiqueReyes0040.jpg');
+    background-position: 50% 40%;
+    text-align: left;
+}
+
+#carousel-background .container h1{
+    color:#ffd100;
+    font-size: 5vh;
+    font-weight: 900;
+    text-shadow: white;
+    text-transform: uppercase;
+}
+
+#carousel-background .container h1{
+    color:#ffd100;
+    font-size: 20vh;
+    font-weight: 300;
+    text-shadow: white;
+    text-transform: uppercase;
+}
+
+
+
 /* Thumbnails noticias*/
 .thumbnail{
-    height:280px;
-    
+    height:280px; 
 }
 
 /* Footer */

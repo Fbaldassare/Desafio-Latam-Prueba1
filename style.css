@@ -1,6 +1,9 @@
 h1,h2,h3,h4,h5,h6,p{
     font-family: 'Nunito', sans-serif;
 }
+h1,h2,h3,h4,h5,h6{
+    color: #008CCC
+}
 
 
 .navbar-default{
@@ -58,6 +61,13 @@ h1,h2,h3,h4,h5,h6,p{
     margin-bottom:35px;
 }
 
+.seccionheader h2{
+    font-size: 6vh;
+    color: #008CCC;
+    margin-bottom:35px;
+    text-transform: uppercase;
+}
+
 
 /* Círculos*/
 .quehacemos{
@@ -69,7 +79,8 @@ h1,h2,h3,h4,h5,h6,p{
     width: 150px;
     background-color: #ffd100;
     border-radius: 50%;
-    margin: auto
+    margin: auto;
+    margin-top:35x
 
     
 }

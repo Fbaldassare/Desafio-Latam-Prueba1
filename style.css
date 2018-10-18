@@ -35,9 +35,10 @@ h1,h2,h3,h4,h5,h6,p{
 
 #carousel-background .container h1{
     color:#ffd100;
-    font-size: 20vh;
-    font-weight: 900;
-    text-shadow: white;
+    font-size: 15vh;
+    font-weight: 700;
+    text-shadow: 1px 1px white;
+    margin-top: 30px;
 
 }
 
@@ -45,9 +46,10 @@ h1,h2,h3,h4,h5,h6,p{
     color:#ffd100;
     font-size: 10vh;
     font-weight: 100;
-    text-shadow: white;
+    text-shadow: 1px 1px white;
+    margin-top: -10px;
 }
-
+/* tituloscontainer */
 
 
 /* Thumbnails noticias*/

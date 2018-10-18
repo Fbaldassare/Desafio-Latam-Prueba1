@@ -19,6 +19,11 @@
     height: 450px;
     margin-top: 50px;
 }
+/* Thumbnails noticias*/
+.thumbnail{
+    height:280px;
+    
+}
 
 /* Footer */
 footer{

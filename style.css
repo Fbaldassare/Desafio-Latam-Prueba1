@@ -3,8 +3,6 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 
-
-
 .navbar-default{
     background-color: #008CCC;
 }
@@ -39,7 +37,6 @@ h1,h2,h3,h4,h5,h6,p{
     font-weight: 700;
     text-shadow: 1px 1px white;
     margin-top: 30px;
-
 }
 
 #carousel-background .container h2{
@@ -49,12 +46,45 @@ h1,h2,h3,h4,h5,h6,p{
     text-shadow: 1px 1px white;
     margin-top: -10px;
 }
+/* Row */
+.row{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* secciónheaders */
+.seccionheader h1{
+    font-size: 8vh;
+    color: #008CCC;
+    margin-bottom:35px;
+}
+
+
+/* Círculos*/
+.quehacemos{
+    text-align: center;
+}
+
+.circle{
+    height: 150px;
+    width: 150px;
+    background-color: #ffd100;
+    border-radius: 50%;
+    margin: auto
+
+    
+}
+
+.text h2{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
 /* tituloscontainer */
 
 
 /* Thumbnails noticias*/
 .thumbnail{
-    height:280px; 
+    height:210px; 
 }
 
 /* Footer */

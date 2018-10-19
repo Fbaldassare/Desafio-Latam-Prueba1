@@ -22,7 +22,7 @@ h1,h2,h3,h4,h5,h6{
 #carousel-example-generic{
     margin-top: 50px;
     height: 450px;
-    background-size:: 100%;
+    background-size: 100%;
     text-align: center;
 }
 
@@ -36,18 +36,38 @@ h1,h2,h3,h4,h5,h6{
 
 #carousel-background .container h1{
     color:#ffd100;
-    font-size: 15vh;
-    font-weight: 700;
+    font-size: 50px;
+    font-weight: 500;
     text-shadow: 1px 1px white;
     margin-top: 30px;
 }
 
+.carousel-caption {
+    text-transform:uppercase;
+    color: #ffd100;
+    font-weight: 500;
+    background-color: rgba(12, 0, 0, 0.3);
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.carousel-caption h2{
+    color: white;
+    font-size: 5vh;
+    font-weight: 500;
+}
+
+.carousel-caption p{
+    font-size: 4vh;
+}
+
 #carousel-background .container h2{
-    color:#ffd100;
-    font-size: 10vh;
+    color:white;
+    font-size: 20px;
     font-weight: 100;
-    text-shadow: 1px 1px white;
+    text-transform: uppercase;
     margin-top: -10px;
+    padding-left: 210px;
 }
 /* Row */
 .row{
@@ -64,7 +84,6 @@ h1,h2,h3,h4,h5,h6{
 .seccionheader h2{
     font-size: 6vh;
     color: #008CCC;
-    margin-bottom:35px;
     text-transform: uppercase;
 }
 
@@ -103,14 +122,26 @@ footer{
     background-color: #008CCC;
     height: 300px;
     color: white;
+    padding-top: 50px;
+}
+footer h4{
+    color: white;
+    font-weight: 700;
 }
 
 footer ul{
     list-style: none;
     padding: 0;
 }
+footer .container{
+    padding-bottom: 50px;
+}
+.navbar-form{
+    padding:0;
+}
+
 
 .redes li{
     display: inline-block;
-    padding: 10px 10px 0 0;
+    padding: 0px 10px 0 0;
 }

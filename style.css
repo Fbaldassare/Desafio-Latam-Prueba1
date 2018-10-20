@@ -10,13 +10,45 @@ h1,h2,h3,h4,h5,h6{
     background-color: #008CCC;
 }
 
-.navbar-brand{
-    color: white;
+.navbar-brand p{
+    position: relative;
+    padding-bottom: 20px;   
+    color: white; 
 }
+.navbar-brand a img{
+    height:30px;
+}
+
 
 .navbar-default .navbar-nav > li > a{
     color: white;
 }
+
+.navbar-default .navbar-nav > .active > a{
+    background-color: #008CCC;
+    color: white;
+    font-weight: 700;   
+}
+
+.navbar-default .navbar-nav li a:hover{
+    color: #ffd100;
+    background-color: rgb(255,255,255);
+}
+
+.navbar-default .navbar-nav .active li a:hover{
+    color: #ffd100;
+    background-color: rgb(22, 151, 211);
+}
+
+.navbar-default .navbar-nav > .active > a:hover{
+    color:#ffd100;
+    background-color: white
+}
+
+.icon-bar{
+    background-color: white;
+}
+
 
 /* Jumbotron */
 #carousel-example-generic{

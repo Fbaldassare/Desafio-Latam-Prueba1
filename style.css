@@ -9,6 +9,9 @@ p{
     font-size: 20
 }
 
+a:hover{
+    text-decoration: none;
+}
 
 .navbar-default{
     background-color: #008CCC;
@@ -46,7 +49,7 @@ p{
 
 .navbar-default .navbar-nav > .active > a:hover{
     color:#ffd100;
-    background-color: white;s
+    background-color: white;
 }
 
 .icon-bar{
@@ -247,10 +250,41 @@ p{
     height:210px; 
 }
 
-.masnoticias{
-    color: white;
-    
+.thumbnail h5{
+    color: #949494 ;
 }
+.thumbnail:hover{
+    border: 1px solid #ff005d;
+}
+.thumbnail:hover h4{
+    color: #ff005d
+}
+
+.masnoticias{
+    background-color: #008CCC
+}
+
+.masnoticias img{
+    width: 60%;
+}
+
+.masnoticias p{
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.masnoticias:hover{
+    background-color: #ff005d;
+    text-decoration: none;
+    border: none;
+}
+
+
+
+
 
 /* Footer */
 footer{

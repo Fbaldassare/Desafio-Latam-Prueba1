@@ -325,17 +325,25 @@ a:hover{
 }
 .agrup{
     box-sizing: border-box;
-    padding: 10px;
+    padding: 5px;
     margin-top: -30px;
     background-color: white;
     z-index:0.3;
     float: left;
     position: relative;
+    clear: both;
+    display: block
 }
 
 .agrup h5{
     color:#949494;
+    font-size: 16px;
 }
+
+.noticia p{
+    display: inline-block;
+}
+
 
 /* paneles desplegables */
 .panel-body h3{

@@ -158,13 +158,24 @@ a:hover{
 
 /* Nuestro equipo */
 .avatarequipo{
-    width: 32%;
+    width: 33%;
     height: 150px;
     display: inline-block;
+    margin: auto;
     position: relative;
-    padding: 0;
-    margin:0;
-    box-sizing: border-box;
+}
+.perfil{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.658);
+    bottom: 0px;
+    position: absolute;
+}
+
+.perfil h5{
+    padding-left: 10px;
+    padding-right: 10PX;
+    color: white;
+    
 }
 #img1{
     background-image: url('image/equipo/edit/img1.jpg');
@@ -304,9 +315,17 @@ a:hover{
 }
 
 /*formularios*/
+
+
+.cabecera-contactos p{
+    color: #949494;
+    font-weight: 300;
+    font-size: 20px;
+    font-variant: small-caps;
+}
 .margenes{
     margin-top: 25px;
-    margin-bottom: 25px;
+
 }
 
 

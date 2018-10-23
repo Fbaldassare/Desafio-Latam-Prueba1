@@ -333,6 +333,10 @@ a:hover{
     position: relative;
 }
 
+.agrup h5{
+    color:#949494;
+}
+
 /* paneles desplegables */
 .panel-body h3{
     display: inline;

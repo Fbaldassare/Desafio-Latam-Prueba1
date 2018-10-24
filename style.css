@@ -76,7 +76,7 @@ a:hover{
 
 .carousel-background-img2{
     margin-top: 50px;
-    background-image: url('image/lazogris.jpg');
+    background-image: url('image/LYM-pano_371282.jpg');
     background-position: center;
     background-size: cover; 
 }
@@ -514,5 +514,8 @@ footer .container{
  @media (max-width: 450px){
     .panel-body h3{
         font-size: 16px;
+    }
+    .carousel-background-img2{
+        height:150px;
     }
  }

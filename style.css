@@ -392,3 +392,9 @@ footer .container{
     display: inline-block;
     padding: 0px 10px 0 0;
 }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }

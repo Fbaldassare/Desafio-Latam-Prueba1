@@ -224,9 +224,10 @@ a:hover{
     background-position: center;
 }
 #img7{
-    background-image: url('image/equipo/edit/img7.jpg');
+    background-image: url('image/equipo/edit/img11.jpg');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 #img8{
     background-image: url('image/equipo/edit/img8.jpg');
@@ -376,6 +377,11 @@ a:hover{
     color: #ff005d
 }
 
+.media{
+    padding: 10px;
+    background-color: #ececec;
+}
+
 /* paneles desplegables */
 .panel-body h3{
     display: inline;
@@ -442,6 +448,7 @@ footer ul{
 footer .container{
     padding-bottom: 50px;
 }
+
 
 .navbar-form{
     padding:0;

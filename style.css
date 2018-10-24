@@ -112,6 +112,8 @@ a:hover{
 .carousel-caption a{
     font-weight: 600;
     color: #ffd100;   
+    font-size: 35px;
+    font-family: 'Nunito';
 }
 
 .carousel-caption a:hover{
@@ -458,6 +460,17 @@ footer .container{
 .redes li{
     display: inline-block;
     padding: 0px 10px 0 0;
+}
+/* Botones */
+.btn-default {
+    border: 1px solid #008CCC;
+    color: #008CCC;
+}
+
+.btn-default:hover{
+    border: 1px solid #ff005d;
+    color: #ff005d;
+    background-color: white;
 }
 
 @media (max-width: 991px){

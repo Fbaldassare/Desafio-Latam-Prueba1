@@ -4,7 +4,6 @@ h1,h2,h3,h4,h5,h6,p{
 h1,h2,h3,h4,h5,h6{
     color: #008CCC
 }
-
 p{
     font-size: 14px;
 }
@@ -76,6 +75,7 @@ a:hover{
 }
 
 .carousel-background-img2{
+    margin-top: 50px;
     background-image: url('image/lazogris.jpg');
     background-position: center;
     background-size: cover; 
@@ -128,8 +128,7 @@ a:hover{
 }
 /* Row */
 .row{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 25px 0 25px 0;
 }
 /* secciónheaders */
 .seccionheader h1{
@@ -166,9 +165,10 @@ a:hover{
     padding-bottom: 50px;
 }
 
+
 /* Nuestro equipo */
 .avatarequipo{
-    width: 33%;
+    width: 32%;
     height: 150px;
     display: inline-block;
     margin: auto;
@@ -244,7 +244,6 @@ a:hover{
 }
 
 /* Cómo colaborar */
-
 .subvoluntario1{
     width: 225px;
     height: 225px;
@@ -342,6 +341,40 @@ a:hover{
     display: inline-block;
 }
 
+/* sidebar */
+.noticiasidebar{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    margin-top: 2px;
+    margin-right: 2px;
+}
+
+.noticiasidebar h4{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.noticiasidebar h5{
+    font-size: 12px;
+    font-weight: 300;
+    color: #949494;
+}
+
+.noticiasidebar p{
+    font-size: 12px;
+    color: black;
+    font-weight: 300;
+}
+.noticiasidebar:hover {
+    border-color:#ff005d;
+}
+
+.noticiasidebar:hover h4{
+    color: #ff005d
+}
 
 /* paneles desplegables */
 .panel-body h3{
@@ -370,14 +403,10 @@ a:hover{
     margin-top: 25px;
 }
 
-
-
-
-
 /* Footer */
 footer{
     background-color: #008CCC;
-    height: 300px;
+    height: 100%px;
     color: white;
     padding-top: 50px;
 }
@@ -390,9 +419,11 @@ footer ul{
     list-style: none;
     padding: 0;
 }
+
 footer .container{
     padding-bottom: 50px;
 }
+
 .navbar-form{
     padding:0;
 }
@@ -404,6 +435,7 @@ footer .container{
 }
 
 @media (max-width: 991px){
+   
     .circle{
         margin-top:25px;
     }
@@ -412,9 +444,17 @@ footer .container{
     .thumbnail{
         height: 230px;
     }
+
+
+    footer .container{
+        padding-bottom: 25px;
+    }
  }
 
  @media (max-width: 768px){
+    .carousel-background-img2{
+        height: 300px;
+    }
     .carousel-background .container h1{
         font-size: 35px;
         text-align: center
@@ -429,6 +469,11 @@ footer .container{
         left: initial;
         padding: 15px;
     }
+
+    /* donación */
+    .subdonacion1 img{
+        margin-top: 10px;
+    }
     .parrafos {
         text-align: center
     }
@@ -440,17 +485,15 @@ footer .container{
 
     /* footer */
     footer{
-        height: 100%;
         padding-top: 25px;
-        padding-bottom: 25px;
-    }
-    footer .container{
-        padding-bottom: 25px;
     }
     .navbar-form{
         padding-right: 15px;
         padding-left:15px;
      }
-
-
+ }
+ @media (max-width: 450px){
+    .panel-body h3{
+        font-size: 16px;
+    }
  }

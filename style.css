@@ -171,13 +171,13 @@ a:hover{
 }
 
 #quienes-somos{
-    width: 50%
+    width: 50%;
     padding: 25px;
     box-sizing: border-box;
     background-color: white;
     float:left;
     margin: 50%;
-    position: absolute;;
+    position: absolute;
     z-index:0.1111;
 }
 

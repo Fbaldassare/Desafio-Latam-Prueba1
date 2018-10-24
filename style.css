@@ -96,6 +96,7 @@ a:hover{
     background-color: rgba(12, 0, 0, 0.3);
     border-radius: 5px;
     margin-bottom: 50px;
+    
 }
 
 .carousel-caption h2{
@@ -106,6 +107,15 @@ a:hover{
 
 .carousel-caption p{
     font-size: 4vh;
+}
+
+.carousel-caption a{
+    font-weight: 600;
+    color: #ffd100;   
+}
+
+.carousel-caption a:hover{
+    color: white;
 }
 
 .carousel-background .container h2{
@@ -403,4 +413,23 @@ footer .container{
         min-height: initial; 
         height: 100%;
     }
+ }
+
+ @media (max-width: 768px){
+     .carousel-background .container h1{
+         font-size: 35px;
+         text-align: center
+     }
+     .carousel-background .container h2{
+         text-align: center;
+         padding-left: 0;
+     }
+     .carousel-caption {
+         width: 100%;
+         right: initial;
+         left: initial;
+         padding: 15px;
+     }
+
+
  }

@@ -128,7 +128,7 @@ a:hover{
 }
 /* Row */
 .row{
-    margin: 25px 0 25px 0;
+    margin: 50px 0 25px 0;
 }
 /* secciónheaders */
 .seccionheader h1{
@@ -391,8 +391,6 @@ a:hover{
 }
 
 /*formularios*/
-
-
 .cabecera-contactos p{
     color: #949494;
     font-weight: 300;
@@ -402,7 +400,28 @@ a:hover{
 .margenes{
     margin-top: 25px;
 }
+.actividadproxima{
+    padding: 5px;
+}
+.proximas-actividades h3{
+    color: #ff005d;
+}
 
+.actividadproxima h6{
+    color: black;
+    font-weight: 900;
+}
+
+.actividadproxima h4{
+    color: #ff005d
+}
+.actividadproxima p{
+    color: #949494
+}
+
+.actividadproxima:hover{
+    background-color:#ececec;
+}
 /* Footer */
 footer{
     background-color: #008CCC;

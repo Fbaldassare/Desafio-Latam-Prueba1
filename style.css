@@ -323,10 +323,20 @@ a:hover{
     width: 100%;
     z-index: 0.5;
 }
+
+.noticia p{
+    display: inline-block;
+}
+
+.noticia {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #ececec;
+    margin-bottom: 25px;
+}
 .agrup{
     box-sizing: border-box;
     padding: 5px;
-    margin-top: -30px;
+    margin-top: -50px;
     background-color: white;
     z-index:0.3;
     float: left;
@@ -334,14 +344,30 @@ a:hover{
     clear: both;
     display: block
 }
+.agrup2{
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: -50px;
+    background-color: white;
+    z-index:3;
+    float: left;
+    position: relative;
+    clear: both;
+    display: block
+}
+.agrup2 h2:hover{
+    color: #ff005d;
+}
 
-.agrup h5{
+.agrup2 h5{
     color:#949494;
     font-size: 16px;
 }
 
-.noticia p{
-    display: inline-block;
+
+.agrup h5{
+    color:#949494;
+    font-size: 16px;
 }
 
 /* sidebar */

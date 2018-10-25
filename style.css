@@ -432,7 +432,7 @@ a:hover{
     font-variant: small-caps;
 }
 .margenes{
-    margin-top: 25px;
+    margin-top: 10px;
 }
 .actividadproxima{
     padding: 5px;
@@ -461,11 +461,11 @@ footer{
     background-color: #008CCC;
     height: 100%px;
     color: white;
-    padding-top: 50px;
 }
 footer h4{
     color: white;
     font-weight: 700;
+    padding-top: 25px;
 }
 
 footer ul{
@@ -473,19 +473,19 @@ footer ul{
     padding: 0;
 }
 
-footer .container{
-    padding-bottom: 50px;
+footer .row .gris{
+    background-color: #ececec!important;
+    width: 100%;
+    height: 200px;
 }
-
 
 .navbar-form{
     padding:0;
 }
 
-
 .redes li{
     display: inline-block;
-    padding: 0px 10px 0 0;
+    padding: 0px 10px 25px 0;
 }
 /* Botones */
 .btn-default {
